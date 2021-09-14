@@ -1,0 +1,46 @@
+<!--Author: Chema Banuelos
+    Date: Sept 13 2021
+    Assignment: Fit for Fitness-->
+    
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="static/styles.css" />
+  <title>THANK YOU!</title>
+  <link rel="class schedule" href="classes.html">
+  <link rel="More Info" href="info.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <img src="Logo.png" alt="running logo">
+  <h1>Fun For Fitness</h1>
+</header>
+<nav>
+    <a href="index.html">Homepage</a>
+    <a href="classes.html">Our Classes</a>
+    <a href="info.html"> Sign Up</a>
+  </nav>
+  <div class="container">
+    <h2>Thank you for requesting an appt! We will be in touch soon!</h2>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+  <footer>Fitness For Fun * 568 Circle Dr, Seattle, NJ 40879 </footer>
+</body>
+
+</html>

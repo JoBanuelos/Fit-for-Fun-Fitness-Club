@@ -1,0 +1,134 @@
+/*Author: Chema Banuelos
+    Date: Sept 13 2021
+    Assignment: Fit for Fitness*/
+
+
+    /*This section is where I edited the index properties and created the standard format for the rest of the pages*/
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  background-color: white;
+  width: 42%;
+  color: rgb(3, 49, 46);
+text-shadow: 2px 2px 4px #02C3BD;
+font-size: 75px;
+position:relative;
+left: 575px;
+top: 105px;
+}
+h2{
+  background-color: white;
+  width: 42%;
+  color: rgb(3, 49, 46);
+text-shadow: 2px 2px 4px #02C3BD;
+font-size: 50px;
+text-align: center;
+
+}
+Nav {
+  background-color: #02C3BD;
+  font-size: 25px;
+  text-align: center;
+  padding: 1px 0px 1px 0px;
+  text-indent: 50px;
+  word-spacing: 20px;
+  top: 0px;
+  position: relative;
+}
+footer{
+  background-color:#02C3BD;
+  color: black;
+  text-align: center;
+}
+
+.run img {
+  float: none;
+  position: relative;
+  left: 84px;
+  top: 57px;
+}
+
+.run p {
+  font-size: 35px;
+  text-align: right;
+  margin: 5px 5px 5px 5px;
+  border: 5px black dotted;
+  border-width: medium;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  float: none;
+  top: -622px;
+    left: 778px;
+}
+body {
+  background-color: #037171;
+}
+
+header {
+  background-image: url(twopeoplerunningbackground.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  float: none;
+}
+
+img {
+  height: 50%;
+  float: none;
+  position: relative;
+  left: 650px;
+  top: 119px;
+}
+
+/* THis is Where my classes.html css is at. Everything in this Css from down is justediting and detailing my table*/
+table {
+  margin: 150px 0px 150px 200px;
+  width: 80%
+}
+
+table, th, td {
+  border: 4px rgb(3, 49, 46) solid;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #037171;
+  text-align: center;
+}
+
+td {
+  width: 5px;
+  height: 5px;
+  text-indent: 2px;
+}
+
+td:nth-child(even) {
+  background-color: #02C3BD;
+  text-align: center;
+}
+
+td:nth-child(odd) {
+  background-color: #009F93;
+}
+
+td:nth-child(even) small {
+  color: brown;
+}
+
+td:nth-child(odd) small {
+  background-color: #009F93;
+  color: white;
+}
+/* inputs from the info.html  */
+form{
+  padding: 10px 2px 10px 2px;
+}
